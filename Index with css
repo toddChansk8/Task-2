@@ -1,0 +1,366 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>homepage</title>
+<style>
+	@charset "utf-8";
+/* CSS Document */
+body {
+    display: block;
+    margin: 8px;
+}
+
+.container {
+	background-color:darkgray;
+	width:1280px;
+	padding-bottom: 20px;
+}
+
+.heading {
+		background-color:#171717;
+		height:100px;
+  		vertical-align: middle;	
+}
+
+.infor {
+	
+	background-color:white;
+    margin:20px;
+	padding:20px 20px;
+	border: 1px gray;
+	box-shadow: 5px 5px 2px #888888;
+	display:bolck;
+	font-family: 黑体;
+	
+}
+
+
+
+
+#logo {
+	display:inline-block;
+	width:100px;
+	height:80px;
+	
+}
+
+h3 {
+		color:gray;
+}
+
+h5 {
+	color:gray;
+}
+
+.img {
+	border:1px gray solid;
+	margin:20px;
+	text-align: center;
+	width:300px;
+	padding:10px;
+	
+}
+
+#nav {
+	float:right;
+	line-height: 100px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#coffee{
+	font:100%;
+	background-color:#FFFFFF;
+	width:800px;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+#coffee > caption{
+	text-align: left;
+	font-weight: bold;
+	font-size:200%;
+}
+
+#coffee > thead{
+	background-color: #515151;
+	color:#FFFFFF;
+}
+
+#coffee > tfoot{
+	background-color:rgba(204,204,204,1.00)
+}
+
+
+#sign {
+	line-height: 40px;
+	border-left:4px solid gray;
+	padding-left:20px;
+}
+
+
+
+
+
+.tips {
+	line-height: 30px;
+	clear:both;
+	vertical-align: middle
+}
+
+.tips > label {
+	float:left;
+	margin:0px;
+	padding-right: 20px;
+	width:400px;
+	text-align: right;
+}
+
+ul li {
+	float:left;
+	padding-right: 30px;
+	color:#000;
+	
+}
+
+ul li a {
+	color:#fff;
+}
+
+ul {
+	
+}
+
+
+
+input {
+	margin:0px;
+}
+
+#boy {
+	display:inline-block;
+}
+
+#girl {
+	display: inline-block;
+}
+
+
+
+.city {
+	line-height: 30px;
+	display:block;
+	
+}
+
+.city >label {
+	width:400px;
+	float:left;
+	padding-right: 20px;
+}
+
+select {
+
+	display: inline-block;
+}
+
+
+
+.hobby {
+	line-height: 30px;
+	display:block;
+}
+
+lable {
+	float:left;
+	width:400px;
+	padding-right:20px;
+	text-align: right;
+}
+
+textarea {
+	vertical-align: middle
+}
+
+#1 {
+	padding-left:420px;
+	float:left;
+	position: absolute;
+	left:420px;
+	
+}
+
+#ttt {
+	margin:0px;
+	float:left;
+	width:200px;
+	padding-left:420px;
+	font-size: 50%;
+	color:gray;
+}
+
+#aaa {
+	margin:0px;
+	float:left;
+	width:200px;
+	padding-left:420px;
+	font-size: 50%;
+	color:gray;
+}
+
+button {
+	float:left;
+	height: 30px;
+	margin: 20px;
+	width:90%;
+	
+}
+	
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="heading"> 
+    <ul id="nav">
+      <li><a href="">导航链接一</a></li>
+      <li><a href="">导航链接二</a></li>
+      <li><a href="">导航链接三</a></li>
+      <li><a href="">导航链接四</a></li>
+    </ul>
+  </div>
+  <div class="infor">
+    <h2>文章一级标题</h2>
+    <h3>文章2级标题</h3>
+    <h5>文章作者 文章发布时间</h5>
+    <p>this is a paragraphthis is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph and there is a link to <a href="www.baidu.com">Baidu</a></p>
+    <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="Baidu">
+    <p>this is a paragraphthis is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph.this is a paragraph and there is a link to <a href="www.baidu.com">Baidu</a></p>
+  </div>
+  <div class="infor">
+    <h2>图片</h2>
+    <div class="img">
+    	<h5>好看的图片</h5>
+    	<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="Baidu" title="Good img" width="300px"> 
+    </div>
+    <div class="img"> 
+    	<h5>好看的图片</h5>
+    	<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="Baidu" title="Good img" width="300px"> 
+    </div>
+    <div class="img"> 
+    	<h5>好看的图片</h5>
+    	<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="Baidu" title="Good img" width="300px"> 
+    </div>
+    <div class="img">
+    	<h5>好看的图片</h5>
+		<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="Baidu" title="Good img" width="300px"> 
+   </div>
+    <div class="img"> 
+    	<h5>好看的图片</h5>
+    	<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="Baidu" title="Good img" width="300px"> 
+    </div>
+  </div>
+  <div class="infor">
+    <h2>最后一篇文章一级标题</h2>
+    <h3>文章2级标题</h3>
+    <h5>文章作者 文章发表时间</h5>
+    <ol>
+      <li>排名1</li>
+      <li>排名2</li>
+      <li>排名3</li>
+    </ol>
+    <p>下面是一个表格</p>
+    <table id="coffee">
+     <caption>coffee bean</caption>
+      <thead>
+        <tr>
+          <th>咖啡豆</th>
+          <th>产地</th>
+          <th>口味</th>
+        </tr>
+      </thead>        
+      <tbody>
+        <tr>
+          <th>曼特宁</th>
+          <th>苏门答腊</th>
+          <th>回甘</th>
+        </tr>
+        <tr>
+          <th>耶加雪啡</th>
+          <th>耶加雪啡</th>
+          <th>果香</th>
+        </tr>
+      </tbody>
+      <tfoot>
+      	<tr>
+      		<th>这是表底</th>
+      		<th>表底2</th>
+      		<th></th>
+      	</tr>
+      </tfoot>
+    </table>
+  </div>
+  <div class="infor">
+    <h2 id="sign">这里以后是一个侧栏，这是侧栏的标题</h2>
+    <h2>侧栏注册窗口标题</h2>
+    <form action="save.php" method="post">
+      <div class="tips">
+        <label for="mailadd">请输入邮箱地址</label>
+        <input type="text" name="mailadd" id="mailadd" value="这是一个文本输入框" />
+      </div>
+      <p id="ttt">邮箱地址请按要求格式输入</p>
+      <div class="tips">
+        <label for="password">请输入密码</label>
+        <input type="text" name="password" id="password" value="这是一个文本输入框" />
+      </div>
+      <p id="aaa">密码为6-16为英文数字</p>
+      <div class="tips">
+        <label for="password2">请重复输入密码</label>
+        <input type="text" name="password2" id="password2" value="这是一个文本输入框" />
+      </div>
+      
+      <div class="tips">
+        <label for="gender">性别</label>
+        <div id="boy">
+          <input type="radio" value="1"  name="gender" />
+		  <label>男</label>
+        </div>
+        <div id="girl">
+          <input type="radio" value="2"  name="gender" />
+          <label>女</label>
+        </div>
+      </div>
+      <div class="tips">
+        <label for="city">城市</label>
+        <select>
+          <option value="北京">北京</option>
+          <option value="深圳">深圳</option>
+          <option value="上海">上海</option>
+          <option value="广州">广州</option>
+        </select>
+      </div>
+      <div class="tips">
+        <label for="hobby">爱好</label>
+        <input type="checkbox" value="art" name="art">
+        艺术
+        <input type="checkbox" value="sport" name="sport">
+        运动
+        <input type="checkbox" value="sci" name="sci">
+        科学
+      </div>     
+      <div class="tips">
+        <lable for="introduction">个人描述</lable>
+        <textarea name="intro" id="" cols="30" rows="5">请输入内容...</textarea>
+      </div>
+      <div>
+      	 <input type="submit" value="提交" name="submitBtn" style="height:30px;width:90%;display:block;margin-top:20px;position:relative;left:5%;background-color:#2D8CEB;border:0px;color:white;font-family:黑体；"/>
+      </div>
+      <div>
+      	
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
